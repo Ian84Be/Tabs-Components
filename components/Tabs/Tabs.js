@@ -1,7 +1,6 @@
 class Tabs {
   constructor(element) {
     this.element = element;
-    this.tabLink = document.querySelector(`.tabs-link[data-tab='${element.dataset.tab}']`);
     this.itemElement = document.querySelector(`.tabs-item[data-tab='${element.dataset.tab}']`);
     element.addEventListener('click', () => this.select());
   }

@@ -9,6 +9,7 @@
 <body>
 	<script src="./components/Dropdown/Dropdown.js" async></script>
 	<script src="./components/Tabs/Tabs.js" async></script>
+	<script src="./components/slideshow/slideshow.js" async></script>
 
 	<div class="header-container">
 		<div class="dropdown">
@@ -23,6 +24,14 @@
 	</div>
 
 	<div class="section">
+		<div class="slideShow">
+			<button class="slideshow-btn" data-slideshow-btn="left"><</button>
+			<img class="slideshow-img img-active" data-gallery-item="1" src="img/bison1.jpg" alt="this is bison1">
+			<img class="slideshow-img" data-gallery-item="2" src="img/bison2.jpg" alt="this is bison2">
+			<img class="slideshow-img" data-gallery-item="3" src="img/bison3.jpg" alt="this is bison3">
+			<button class="slideshow-btn"data-slideshow-btn="right">></button>
+		</div>
+
 		<div class="box">
 			<div class="box-title">Box Title 1</div>
 			<div class="box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce risus nibh, gravida nec
@@ -52,12 +61,20 @@
 				<div class="tabs-link" data-tab="6">Tab 6</div>
 			</div>
 			<div class="tabs-items">
-					<div class="tabs-item" data-tab="5">
-							<div class="tabs-item-title">Quote 5</div>
-							<div class="tabs-item-description">
-									“Call me Ishmael. Some years ago - never mind how long precisely - having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen, and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off - then, I account it high time to get to sea as soon as I can. This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship.”
-							</div>
-						</div>
+				<div class="tabs-item" data-tab="5">
+					<div class="tabs-item-title">Quote 5</div>
+					<div class="tabs-item-description">
+						“Call me Ishmael. Some years ago - never mind how long precisely - having little or no money in my purse, and
+						nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the
+						world. It is a way I have of driving off the spleen, and regulating the circulation. Whenever I find myself
+						growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself
+						involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially
+						whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from
+						deliberately stepping into the street, and methodically knocking people's hats off - then, I account it high time
+						to get to sea as soon as I can. This is my substitute for pistol and ball. With a philosophical flourish Cato
+						throws himself upon his sword; I quietly take to the ship.”
+					</div>
+				</div>
 				<div class="tabs-item" data-tab="6">
 					<div class="tabs-item-title">Quote 6</div>
 					<div class="tabs-item-description">

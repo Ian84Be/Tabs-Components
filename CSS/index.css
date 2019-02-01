@@ -115,12 +115,31 @@ body {
   box-shadow: 1px 1px 5px #931d25;
   border-radius: 10px;
   overflow: hidden;
+  justify-content: center;
 }
 .section .box {
+  display: none;
   padding: 40px;
 }
 .section .box .box-title {
   font-size: 24px;
   padding-bottom: 10px;
   font-weight: bold;
+}
+.section .slideShow {
+  border: 3px solid cyan;
+  display: flex;
+  align-items: center;
+}
+.section .slideShow .slideshow-btn {
+  font-size: 3rem;
+  padding: 20px;
+  margin: 20px;
+}
+.section .slideShow img {
+  width: 500px;
+  display: none;
+}
+.section .slideShow img.img-active {
+  display: block;
 }

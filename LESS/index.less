@@ -39,13 +39,35 @@ body {
   box-shadow: 1px 1px 5px @lambda-red;
   border-radius: 10px;
   overflow: hidden;
+  justify-content: center;
+
   .box {
+    display:none;
     padding: 40px;
     .box-title {
       font-size: 24px;
       padding-bottom: 10px;
       font-weight: bold;
     }
+  }
+
+  .slideShow {
+    border:3px solid cyan;
+    display:flex;
+    align-items:center;
+    .slideshow-btn {
+      font-size:3rem;
+      padding:20px;
+      margin:20px;
+    }
+    img {
+      width:500px;
+      display:none;
+      &.img-active {
+        display:block;
+      }
+    }
+    
   }
 }
 
